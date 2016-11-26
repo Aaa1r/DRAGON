@@ -6,9 +6,9 @@
 * 🔺- عوفه مفتوح وفتح ترمنال لاخ وخلي 👇
 * sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-dev
 * 🔺- وراهه 👇
-* git clone https://github.com/moodlIMyIl/DEVTSHAKE.git
+* https://github.com/Aaa1r/DRAGON.git
 * 🔺- وراهه👇
-* cd DEVTSHAKE
+* cd DRAGON
 * 🔺- وراهه👇
 * chmod +x launch.sh
 * 🔺- وراهه👇
@@ -20,14 +20,4 @@
 * sudo service redis-server start
 * 🔺- ودوس انتر 
 * 🔺- وسوي رن من ملف لانج
-* 🔺- بعد متسوي رن افتح ترمنال جديد واكتب 
-* cd DEVTSHAKE
-* 🔺- انتر وبعدها هل امر 
-* bash DEVTSHAKE.sh -t
-* 🔺- انتظر 5 ثواني يشتغل بوت 
-* هذا ملف يقلل وكفات بوت :)
-* 🔺-----------------------------🔺
 
-* by :- @lTSHAKEl_CH
-
-* 🔺-----------------------------🔺
