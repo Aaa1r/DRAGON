@@ -174,5 +174,5 @@ echo ""
     rm gban1
     
   fi
-  ./tg/bin/telegram-cli -k ./tg/tg-server.pub -s ./DRAGON/DRAGON.lua -l 1 -E $@
+  ./tg/bin/telegram-cli -k ./tg/tg-server.pub -s ./dragon/dragon.lua -l 1 -E $@
 fi
