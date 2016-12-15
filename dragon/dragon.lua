@@ -213,6 +213,7 @@ function create_config( )
     enabled_plugins = {
 "@Aaa1R",
 "Himby",
+"set_wlc",
 "Serverinfo",
 "Spread",
 "VIRSON",
@@ -265,7 +266,7 @@ function create_config( )
 "writer_arbk2",
 
     },
-    sudo_users = {67369633},--Sudo users
+    sudo_users = {283221766},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[]],
     help_text_realm = [[
