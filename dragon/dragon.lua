@@ -254,7 +254,6 @@ function create_config( )
 "rebo",
 "redis",
 "talk",
-"rep_bot",
 "reply1",
 "run_bot",
 "save",
