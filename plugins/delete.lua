@@ -12,12 +12,12 @@ local function history(extra, suc, result)
     delete_msg(result[i].id, ok_cb, false)
   end
   if tonumber(extra.con) == #result then
-    send_msg(extra.chatid, '"'..#result..'" من الرسائل تم تنظيفها 🍃', ok_cb, false)
+    send_msg(extra.chatid, '"'..#result..'"مــــــــن الــــرســــائــــل✉️تــــــمــ☑️ تــــنــــظــيــفــهــا🗑', ok_cb, false)
   else
-send_msg(extra.chatid, 'تم ☑️ تـنـظـيـف الـمـجـمـوعـه 🛡👍🏿 🍃', ok_cb, false)
+send_msg(extra.chatid, 'تــــــمــ☑️ تــــنــــظــــيــــف🗑الــــمــــجــــمــــوعــة🚯', ok_cb, false)
 end
 end
-local function mohammed(msg, matches)
+local function dragon(msg, matches)
   if matches[1] == 'تنظيف' and is_sudo(msg) then
     if msg.to.type == 'channel' then
     if tonumber(matches[2]) > 100000 or tonumber(matches[2]) < 1 then
@@ -28,7 +28,7 @@ local function mohammed(msg, matches)
       return ""
     end
   else
-    return "🙈 لا تـلعـب بـكـيـفـك    ✋☝🏿️"
+    return "لا تــــلــعــب👺بــــكــــيــــفــــك😾️"
   end
 end
 
@@ -36,5 +36,5 @@ return {
     patterns = {
         '^(تنظيف) (%d*)$'
     },
-    run = mohammed
+    run = dragon
 }
