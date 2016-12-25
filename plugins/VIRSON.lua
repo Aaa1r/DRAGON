@@ -10,16 +10,16 @@
   
   do
   
-  function mohammed(msg, matches)
+  function dragon(msg, matches)
   local reply_id = msg['id']
-    local S = 'شكد دوده لعد ☹️🖕'  reply_msg(reply_id, S, ok_cb, false)
+    local S = 'https://telegram.me/Dev_TLN'  reply_msg(reply_id, S, ok_cb, false)
   end
   
   return {
     patterns = {
   "^(الاصدار)$",
     }, 
-    run = mohammed 
+    run = dragon 
   }
   
   end
